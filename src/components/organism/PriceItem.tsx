@@ -25,7 +25,7 @@ function PriceItem({ title, description, packages }: Props) {
           <div key={index} className="flex items-center justify-between gap-4">
             <Typography component="span">{pkg.name}</Typography>
             {pkg.price.discounted ? (
-              <div className="flex items-center gap-4">
+              <div className="flex items-center gap-3">
                 <Typography
                   component="span"
                   className="font-numerical text-alabaster-grey text-2xl line-through"
