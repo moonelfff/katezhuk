@@ -1,5 +1,6 @@
 import Typography from "../atom/Typography";
 import Card from "../molecule/Card";
+import Number from "../molecule/Number";
 
 type Props = {
   title: string;
@@ -26,23 +27,18 @@ function PriceItem({ title, description, packages }: Props) {
             <Typography component="span">{pkg.name}</Typography>
             {pkg.price.discounted ? (
               <div className="flex items-center gap-3">
-                <Typography
-                  component="span"
-                  className="font-numerical text-alabaster-grey text-2xl line-through"
-                >
-                  {pkg.price.regular.amount} {pkg.price.regular.currency}
-                </Typography>
-                <Typography
-                  component="span"
-                  className="font-numerical text-2xl"
-                >
-                  {pkg.price.discounted.amount} {pkg.price.discounted.currency}
-                </Typography>
+                <Number
+                  value={`${pkg.price.regular.amount} ${pkg.price.regular.currency}`}
+                  crossedOut
+                />
+                <Number
+                  value={`${pkg.price.discounted.amount} ${pkg.price.discounted.currency}`}
+                />
               </div>
             ) : (
-              <Typography component="span" className="font-numerical text-2xl">
-                {pkg.price.regular.amount} {pkg.price.regular.currency}
-              </Typography>
+              <Number
+                value={`${pkg.price.regular.amount} ${pkg.price.regular.currency}`}
+              />
             )}
           </div>
         ))}
