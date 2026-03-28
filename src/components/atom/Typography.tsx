@@ -29,7 +29,7 @@ function Typography({ children, component = "p", className = "" }: Props) {
       classes = `text-base ${className}`;
       break;
     case "p":
-      classes = `text-base ${className}`;
+      classes = `text-justify text-base ${className}`;
       break;
     case "span":
       classes = `${className}`;
