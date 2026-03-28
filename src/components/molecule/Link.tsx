@@ -7,7 +7,7 @@ type Props = {
 
 function Link({ href, title }: Props) {
   return (
-    <div className="flex justify-center pt-6">
+    <div className="flex justify-center pt-5">
       <a
         href={href}
         target="_blank"
@@ -16,7 +16,7 @@ function Link({ href, title }: Props) {
         aria-label={title}
         title={title}
       >
-        <div className="shadow-effect button-shadow">
+        <div className="shadow-effect button-shadow mt-2">
           <div className="backdrop-glass button-glass">
             <Typography component="span" className="block px-6 py-3">
               {title}

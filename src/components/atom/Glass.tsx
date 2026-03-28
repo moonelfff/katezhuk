@@ -4,7 +4,7 @@ type Props = {
 
 function Glass({ children }: Props) {
   return (
-    <div className="shadow-effect shadow-effect-offset h-full">
+    <div className="shadow-effect shadow-effect-offset mt-2 h-full">
       <div className="backdrop-glass backdrop-glass-offset h-full">
         {children}
       </div>
