@@ -28,7 +28,9 @@ function Pricelist() {
 
   return (
     <section>
-      <Typography component="h2">{data.priceHeader}</Typography>
+      <Typography component="h2" className="mb-3">
+        {data.priceHeader}
+      </Typography>
       <div className="flex flex-col gap-6">
         <div className="flex flex-col flex-wrap justify-center gap-3 gap-y-5 lg:flex-row">
           {data.pricelist.map((item) => (

@@ -10,7 +10,7 @@ function ContentBox({ content }: Props) {
 
   return (
     <div>
-      <div className="markdown content-markdown flex flex-col gap-3">
+      <div className="markdown content-markdown flex flex-col gap-2">
         {content === undefined ? (
           <div className="h-100">{data.loading}</div>
         ) : (

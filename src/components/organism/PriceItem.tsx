@@ -19,7 +19,7 @@ function PriceItem({ title, description, packages }: Props) {
     <Card>
       <div>
         <Typography component="h3">{title}</Typography>
-        <div className="markdown flex flex-col gap-3">{description}</div>
+        <div className="markdown flex flex-col gap-2">{description}</div>
       </div>
       <div className="pt-6">
         {packages.map((pkg, index) => (

@@ -17,7 +17,7 @@ function Typography({ children, component = "p", className = "" }: Props) {
       classes = `text-2xl lg:text-3xl font-semibold mb-1 ${className}`;
       break;
     case "h3":
-      classes = `text-xl lg:text-2xl font-semibold mb-2 ${className}`;
+      classes = `text-xl lg:text-2xl font-semibold mb-3 ${className}`;
       break;
     case "h4":
       classes = `text-xl ${className}`;
