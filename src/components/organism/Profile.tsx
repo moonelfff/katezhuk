@@ -16,8 +16,8 @@ function Profile() {
         <Link href={content.telegramLink} title={content.bookConsultation} />
         <Link href={content.blogLink} title={content.blog} />
       </div>
-      <div className="flex justify-center">
-        <Image src={photo} alt={content.fullName} className="w-full lg:w-150" />
+      <div>
+        <Image src={photo} alt={content.fullName} className="w-full" />
       </div>
     </section>
   );
