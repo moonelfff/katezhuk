@@ -12,7 +12,9 @@ function ContentBox({ content }: Props) {
     <div>
       <div className="markdown content-markdown flex flex-col gap-2">
         {content === undefined ? (
-          <div className="h-100">{data.loading}</div>
+          <div className="flex h-120 items-center justify-center">
+            {data.loading}
+          </div>
         ) : (
           parseMarkdown(content)
         )}

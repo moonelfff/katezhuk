@@ -106,7 +106,7 @@
 .backdrop-glass-offset {
   backdrop-filter: blur(0.2rem) !important;
   -webkit-backdrop-filter: blur(0.2rem);
-  transition: backdrop-filter 0.3s ease-in-out;
+  transition: backdrop-filter 0.5s ease-in-out;
 }
 
 .backdrop-glass-offset:hover {

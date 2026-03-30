@@ -41,7 +41,9 @@ function Pricelist() {
                 descriptions[item.title] ? (
                   parseMarkdown(descriptions[item.title])
                 ) : (
-                  <div className="h-50">{data.loading}</div>
+                  <div className="flex h-50 items-center justify-center">
+                    {data.loading}
+                  </div>
                 )
               }
               packages={item.packages}
