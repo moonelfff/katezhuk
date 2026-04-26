@@ -12,12 +12,12 @@ function Link({ href, title }: Props) {
         href={href}
         target="_blank"
         rel="noopener noreferrer"
-        className="text-platinum w-full text-center font-semibold uppercase lg:w-auto lg:min-w-100"
+        className="text-platinum w-full text-center font-semibold uppercase lg:w-auto"
         aria-label={title}
         title={title}
       >
         <div className="shadow-effect button-shadow mt-2">
-          <div className="backdrop-glass button-glass">
+          <div className="backdrop-glass button-glass w-full lg:w-auto lg:min-w-100">
             <Typography component="span" className="block px-6 py-3">
               {title}
             </Typography>
