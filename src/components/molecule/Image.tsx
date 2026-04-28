@@ -7,14 +7,9 @@ type Props = {
 function Image({ src, alt, className }: Props) {
   return (
     <div className={className}>
-      <div className="shadow-effect shadow-effect-offset mt-2 w-fit!">
+      <div className="shadow-effect shadow-effect-offset mt-2">
         <div className="image-glass rounded-3xl">
-          <img
-            src={src}
-            alt={alt}
-            className="w-full lg:w-120 lg:min-w-120"
-            fetchPriority="high"
-          />
+          <img src={src} alt={alt} className="w-full lg:w-120 lg:min-w-120" />
           <div className="image-shadow" />
         </div>
       </div>
