@@ -4,13 +4,13 @@
   "fullName": "Екатерина Жук",
   "info": {
     "title": "Клинический психолог",
-    "contentPath": "/katezhuk/profile.md"
+    "contentPath": "/profile.md"
   },
   "instagram": "Инстаграм",
   "instagramLink": "https://www.instagram.com/kate.zhuk.psy/",
   "pricelist": [
     {
-      "descriptionPath": "/katezhuk/pricelist/one_time_consultation.md",
+      "descriptionPath": "/pricelist/one_time_consultation.md",
       "packages": [
         {
           "name": "55 минут",
@@ -20,7 +20,7 @@
       "title": "Разовая консультация"
     },
     {
-      "descriptionPath": "/katezhuk/pricelist/individual_therapy.md",
+      "descriptionPath": "/pricelist/individual_therapy.md",
       "packages": [
         {
           "name": "1 встреча",
@@ -37,7 +37,7 @@
       "title": "Индивидуальная психотерапия"
     },
     {
-      "descriptionPath": "/katezhuk/pricelist/couple_therapy.md",
+      "descriptionPath": "/pricelist/couple_therapy.md",
       "packages": [
         {
           "name": "1 встреча",
@@ -54,7 +54,7 @@
       "title": "Парная терапия"
     },
     {
-      "descriptionPath": "/katezhuk/pricelist/diagnostics.md",
+      "descriptionPath": "/pricelist/diagnostics.md",
       "packages": [
         {
           "name": "60-90 минут",
@@ -64,7 +64,7 @@
       "title": "Клиническая психологическая диагностика"
     },
     {
-      "descriptionPath": "/katezhuk/pricelist/personality_map.md",
+      "descriptionPath": "/pricelist/personality_map.md",
       "packages": [
         {
           "name": "",
