@@ -7,7 +7,7 @@ import { responsiveImage } from "@responsive-image/vite-plugin";
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: "/katezhuk/",
+  base: "/",
   plugins: [react(), tailwindcss(), utwm(), responsiveImage()],
   resolve: {
     alias: {
