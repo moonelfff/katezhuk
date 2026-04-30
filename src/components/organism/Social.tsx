@@ -1,6 +1,6 @@
 import getContent from "../../assets/data/content";
 import TelegramIcon from "../../assets/icons/TelegramIcon";
-import InstagramIcon from "../../assets/icons/InstagramIcon";
+import VKIcon from "../../assets/icons/VKIcon";
 
 function Social() {
   const content = getContent();
@@ -19,12 +19,12 @@ function Social() {
       </li>
       <li>
         <a
-          href={content.instagramLink}
+          href={content.vkMessengerLink}
           target="_blank"
           rel="noopener noreferrer"
-          title={content.instagram}
+          title={content.vkMessenger}
         >
-          <InstagramIcon color="var(--color-platinum)" />
+          <VKIcon color="var(--color-platinum)" />
         </a>
       </li>
     </ul>
