@@ -1,13 +1,11 @@
 {
-  "blog": "Перейти в мой блог",
-  "blogLink": "https://t.me/kate_zhuk_psy",
   "fullName": "Екатерина Жук",
   "info": {
     "title": "Клинический психолог",
     "contentPath": "/profile.md"
   },
-  "instagram": "Инстаграм",
-  "instagramLink": "https://www.instagram.com/kate.zhuk.psy/",
+  "professionDescription": "Клинический и практический психолог",
+  "priceHeader": "Пакеты консультаций и цены",
   "pricelist": [
     {
       "descriptionPath": "/pricelist/one_time_consultation.md",
@@ -74,8 +72,11 @@
       "title": "Психоаналитическая карта личности"
     }
   ],
-  "priceHeader": "Пакеты консультаций и цены",
-  "professionDescription": "Клинический и практический психолог",
+  "blogDescriptionPath": "/blog.md",
+  "blog": "Перейти в блог",
+  "blogLink": "https://t.me/kate_zhuk_psy",
+  "instagram": "Инстаграм",
+  "instagramLink": "https://www.instagram.com/kate.zhuk.psy/",
   "telegram": "Телеграм",
   "telegramLink": "https://t.me/moonelfff",
   "vkMessenger": "ВК Мессенджер",
